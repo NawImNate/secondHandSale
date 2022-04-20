@@ -18,6 +18,7 @@ function WelcomeScreen(props) {
     >
       <View style={styles.logoContainer}>
         <Image style={styles.logo} source={require("../assets/logo-red.png")} />
+        <Text>Sell your things, make money!</Text>
       </View>
       <View style={styles.loginButton}>
         <Text style={styles.buttonText}>Login</Text>
@@ -50,6 +51,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   buttonText: {
+    flex: 1,
     color: "white",
     fontSize: 30,
     textAlign: "center",
