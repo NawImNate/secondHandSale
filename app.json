@@ -27,6 +27,8 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "An app to sell your personal items. ",
+    "githubUrl": "https://github.com/NawImNate/secondHandSale"
   }
 }
